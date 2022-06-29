@@ -12,9 +12,6 @@ body{
   background: tomato;
   height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .popup-box {
@@ -26,7 +23,25 @@ body{
   justify-content: center;
   align-items: center;
   width: 380px;
+  position: relative;
 }
+
+.popup-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.popup-section>p {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+}
+
 button#popup-btn {
   padding: 10px 15px;
   border: none;
@@ -52,3 +67,4 @@ button#popup-btn {
   font-size: 20px;
   font-weight: bold;
 }
+
